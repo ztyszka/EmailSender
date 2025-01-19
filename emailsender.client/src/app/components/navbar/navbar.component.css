@@ -1,0 +1,31 @@
+.navbar-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #005689;
+    color: #d5eeff;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.main-container{
+    padding: 3.5em 1.5em 3.5em 1.5em;
+    background-color: #005689;
+    height: 100vh;
+}
+
+a{
+    text-decoration: none;
+    color: #d5eeff;
+    font-size: 1.4em;
+    margin: 0.2em 0.2em 0 0;
+}
+
+svg{
+    fill: #d5eeff;
+}
+
+.home:hover{
+    cursor: pointer;
+}

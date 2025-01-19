@@ -1,0 +1,19 @@
+<div class="container">
+    <h1>New Email Campaign</h1>
+    <form [formGroup]="newCampaignForm" (ngSubmit)="onSubmit()">
+        <div>
+            <label for="groupId">Send to Group</label>
+            <input type="number" id="groupId" formControlName="groupId">
+            <!-- change to dropdown -->
+        </div>
+        <div>
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" formControlName="subject">
+        </div>
+        <div>
+            <label for="message">Message</label>
+            <input type="text" id="message" formControlName="message">
+        </div>
+        <button class="primary-button" type="submit">Send</button>
+    </form>
+</div>
